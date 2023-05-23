@@ -1,6 +1,6 @@
 <div class="team-container">
-  <h3>Tema 2</h3>
+  <h3>{{"Team "+ index + 1}}</h3>
   <ul>
-    <li>member</li>
+    <li *ngFor="let member of team">{{member }}</li>
   </ul>
 </div>
